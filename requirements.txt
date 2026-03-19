@@ -1,0 +1,5 @@
+fastapi==0.103.0            # Latest FastAPI version
+uvicorn==0.23.0             # Latest Uvicorn version
+pydantic==2.4.0             # Latest Pydantic version
+requests==2.31.0            # Already up-to-date
+boto3==1.29.0               # Latest Boto3 version
