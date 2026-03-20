@@ -8,7 +8,7 @@ from io import StringIO
 import sys
 
 # Load configuration from environment variables
-aws_region = os.getenv("AWS_Region", "us-east-1")
+aws_region = os.getenv("AWS_Region", "ap-southeast-2")
 default_model_id = os.getenv("MODEL_ID", "anthropic.claude-3-5-sonnet-20240620-v1:0")
 
 # Initialize FastAPI app
