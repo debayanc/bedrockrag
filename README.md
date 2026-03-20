@@ -63,7 +63,7 @@ Query a Knowledge Base with a prompt.
 **Request Body:**
 ```json
 {
-  "prompt": "What is the capital of France?",
+  "prompt": "does debayan has any Azure experience?",
   "kbId": "your-knowledge-base-id"
 }
 ```
@@ -71,7 +71,7 @@ Query a Knowledge Base with a prompt.
 **Response:**
 ```json
 {
-  "response": "The capital of France is Paris."
+  "response":"Yes, Debayan has Azure experience. His expertise includes working with Azure Subscriptions, Azure AD/Entra Id, Azure DevOps, and Azure AI Foundry. Additionally, he has delivered projects using Azure technologies, including:\n\n1. The first GenAI project using the Azure AI platform for BP.\n2. Building a data platform in Azure for Booth Transport, which involved Azure Data Gateway and Microsoft Fabric.\n\nThis experience demonstrates that Debayan has practical knowledge and hands-on experience with various Azure services and technologies."
 }
 ```
 
@@ -79,7 +79,7 @@ Query a Knowledge Base with a prompt.
 ```bash
 curl -X POST "http://localhost:8000/query" \
      -H "Content-Type: application/json" \
-     -d '{"prompt": "Your question here", "kbId": "your-kb-id"}'
+     -d '{"prompt": "Does Debayan has SAML experience?", "kbId": "your-kb-id"}'
 ```
 
 ## API Documentation
